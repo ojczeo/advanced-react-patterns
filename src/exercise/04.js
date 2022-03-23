@@ -22,8 +22,8 @@ function useToggle() {
 
     function getTogglerProps({onClick, ...props} = {}) {
       return {
-          'aria-pressed': on,
-          onClick: calAll(onClick, toggle),
+        'aria-pressed': on,
+        onClick: calAll(onClick, toggle),
         ...props
       }
     }
